@@ -1,0 +1,4 @@
+게임 리소스 출처
+image : opengameart.org
+sound : www.bensound.com
+particle : assetstore.unity.com/publishers/1778

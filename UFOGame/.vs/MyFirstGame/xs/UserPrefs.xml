@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F536D4E2-7E6F-BB40-F6EB-7C64A65B74DF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2.Scripts/HealthBar.cs">
+    <Files>
+      <File FileName="Assets/2.Scripts/Ranking.cs" Line="22" Column="37" />
+      <File FileName="Assets/2.Scripts/DataManager.cs" Line="31" Column="12" />
+      <File FileName="Assets/2.Scripts/RecordCell.cs" Line="8" Column="24" />
+      <File FileName="Assets/2.Scripts/Lobby.cs" Line="12" Column="6" />
+      <File FileName="Assets/2.Scripts/GameController.cs" Line="79" Column="10" />
+      <File FileName="Assets/2.Scripts/PlayerController.cs" Line="19" Column="6" />
+      <File FileName="Assets/2.Scripts/EnemyShooter.cs" Line="7" Column="5" />
+      <File FileName="Assets/2.Scripts/EnemyBase.cs" Line="14" Column="10" />
+      <File FileName="Assets/2.Scripts/DestroyByContact.cs" Line="17" Column="10" />
+      <File FileName="Assets/2.Scripts/DestroyByBoundary.cs" Line="11" Column="2" />
+      <File FileName="Assets/2.Scripts/DestroyByTime.cs" Line="9" Column="17" />
+      <File FileName="Assets/2.Scripts/Mover.cs" Line="11" Column="25" />
+      <File FileName="Assets/2.Scripts/GameData.cs" Line="9" Column="15" />
+      <File FileName="Assets/2.Scripts/MyMath.cs" Line="10" Column="27" />
+      <File FileName="Assets/2.Scripts/EnemySingleShooter.cs" Line="12" Column="1" />
+      <File FileName="Assets/2.Scripts/EnemyStrafeShooter.cs" Line="10" Column="33" />
+      <File FileName="Assets/2.Scripts/EnemyMultiShooter.cs" Line="7" Column="33" />
+      <File FileName="Assets/2.Scripts/BlinkText.cs" Line="1" Column="1" />
+      <File FileName="Assets/2.Scripts/SoundManager.cs" Line="3" Column="42" />
+      <File FileName="Assets/2.Scripts/HealthBar.cs" Line="8" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
