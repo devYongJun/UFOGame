@@ -5,24 +5,22 @@ using UnityEngine;
 public class Pool : MonoBehaviour
 {
     public PoolObject prefab;
-    public List<PoolObject> pools = new List<PoolObject>();
+    public List<PoolObject> poolList = new List<PoolObject>();
 
     public void Push(PoolObject bullet)
     {
         bullet.gameObject.SetActive(false);
-        bullet.transform.position = Vector3.zero;
-        bullet.transform.rotation = Quaternion.identity;
-        pools.Add(bullet);
+        poolList.Add(bullet);
     }
 
     public PoolObject Pop()
     { 
-        if(pools.Count > 0)
+        if(poolList.Count > 0)
         {
-            int lastIndex = pools.Count - 1;
-            PoolObject poolObj = pools[lastIndex];
+            int lastIndex = poolList.Count - 1;
+            PoolObject poolObj = poolList[lastIndex];
             poolObj.gameObject.SetActive(true);
-            pools.RemoveAt(lastIndex);
+            poolList.RemoveAt(lastIndex);
             return poolObj;
         }
         return CreateNew();

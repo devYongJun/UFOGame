@@ -6,8 +6,6 @@ public class Mover : MonoBehaviour
 
     private void Update()
     {
-        Vector2 direction = MyMath.DegreeToVector2(transform.eulerAngles.z);
-        direction.Normalize();
-        transform.position += new Vector3(direction.x, direction.y, 0f) * speed * Time.deltaTime;
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 }

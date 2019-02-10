@@ -24,7 +24,6 @@ public class GameController : MonoBehaviour
     public float intervalAccel;
 
     public Text scoreText;
-    public Text pauseText;
     public GameObject gameoverMenu;
 
     private bool _gameover;
@@ -67,7 +66,6 @@ public class GameController : MonoBehaviour
                 Time.timeScale = 0f;
             }
             _pause = !_pause;
-            UpdatePlayState();
         }
     }
 
@@ -105,11 +103,6 @@ public class GameController : MonoBehaviour
     private void UpdateScore()
     {
         scoreText.text = _score.ToString();
-    }
-
-    private void UpdatePlayState()
-    {
-        pauseText.text = _pause ? "ESC : Resume" : "ESC : Pause";
     }
 
     public void Gameover()

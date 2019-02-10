@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class DestroyByContact : MonoBehaviour
 {
     public GameObject explosion;
