@@ -14,15 +14,20 @@ public class DestroyByContact : MonoBehaviour
             return;
         }
 
+        if (collision.CompareTag("Bullet"))
+        {
+            GameController.Instance.Despawn(collision.gameObject);
+        }
+
         healthBar.Decrease();
 
-        if(healthBar.healthCur == 0)
+        if (healthBar.healthCur == 0)
         {
-            if (collision.CompareTag("Enemy"))
+            if(this.gameObject.CompareTag("Player"))
             {
                 GameController.Instance.Gameover();
             }
-            else if (collision.CompareTag("PlayerBullet"))
+            else if(this.gameObject.CompareTag("Enemy"))
             {
                 GameController.Instance.AddScore(score);
             }
@@ -31,6 +36,6 @@ public class DestroyByContact : MonoBehaviour
             GameController.Instance.Despawn(this.gameObject);
         }
 
-        GameController.Instance.Despawn(collision.gameObject);
+
     }
 }
