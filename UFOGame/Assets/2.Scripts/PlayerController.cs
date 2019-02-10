@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
 
         _moveDirection = new Vector2(h, v);
+        _moveDirection.Normalize();
 
         if (Input.GetButton("Fire1") && Time.time > _nextFire)
         {
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 velocity = _moveDirection.normalized * speed * Time.fixedDeltaTime;
+        Vector2 velocity = _moveDirection * speed * Time.fixedDeltaTime;
 
         Vector2 movePosition = new Vector2(
             Mathf.Clamp(_rigidbody2D.position.x + velocity.x, boundary.xMin, boundary.xMax),
