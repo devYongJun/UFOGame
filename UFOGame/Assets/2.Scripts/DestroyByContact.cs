@@ -23,11 +23,11 @@ public class DestroyByContact : MonoBehaviour
 
         if (healthBar.healthCur == 0)
         {
-            if(this.gameObject.CompareTag("Player"))
+            if (this.gameObject.CompareTag("Player"))
             {
                 GameController.Instance.Gameover();
             }
-            else if(this.gameObject.CompareTag("Enemy"))
+            else if (this.gameObject.CompareTag("Enemy"))
             {
                 GameController.Instance.AddScore(score);
             }
@@ -35,7 +35,5 @@ public class DestroyByContact : MonoBehaviour
             SoundManager.Instance.PlaySFX("explosion");
             GameController.Instance.Despawn(this.gameObject);
         }
-
-
     }
 }
