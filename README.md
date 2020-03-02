@@ -17,9 +17,10 @@ _초심자를 위한 유니티 강의 목적으로 작성되었습니다_
 9. File IO (파일 입출력)
 
 
-- 소스코드 다운로드
+- 소스코드 다운로드   
 <https://github.com/devYongJun/UFOGame>   
-- 무료 리소스 출처
+
+- 무료 리소스 출처   
 <opengameart.org>
 <www.bensound.com>
 <assetstore.unity.com/publishers/1778>   
