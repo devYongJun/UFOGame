@@ -51,7 +51,7 @@ _초심자를 위한 유니티 강의 목적으로 작성되었습니다_
 
 - 무료 리소스 출처   
 <https://opengameart.org>  
-https://www.bensound.com>  
+<https://www.bensound.com>  
 <https://assetstore.unity.com/publishers/1778>     
 
 
