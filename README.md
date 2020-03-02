@@ -50,9 +50,9 @@ _초심자를 위한 유니티 강의 목적으로 작성되었습니다_
 <https://github.com/devYongJun/UFOGame>   
 
 - 무료 리소스 출처   
-<opengameart.org>  
-<www.bensound.com>  
-<assetstore.unity.com/publishers/1778>     
+<https://opengameart.org>  
+https://www.bensound.com>  
+<https://assetstore.unity.com/publishers/1778>     
 
 
 
