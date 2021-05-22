@@ -46,7 +46,7 @@ _2019년 링크드 코리아 초심자를 위한 유니티 강의 목적으로 �
 <br>
 
 - 소스코드 다운로드   
-<https://github.com/devYongJun/UFOGame>   
+<https://github.com/devYongJun/unity-ufo>   
 
 - 무료 리소스 출처   
 <https://opengameart.org>  
